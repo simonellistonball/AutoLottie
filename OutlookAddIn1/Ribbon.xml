@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+    <ribbon>
+        <tabs>
+            <tab idMso="TabNewMailMessage">
+                <group id="group1" label="AutoLottie">
+                  <splitButton id="autoLottieButton" size="large">
+                    <button id="button1" imageMso="SlideShowRehearseTimings" onAction="ClickLottie" label="Schedule Nag" showImage="false"  />
+                    <menu>
+                      <button id="OneMinute" label="One minute" onAction="AddMinuteReminder"/>
+                      <button id="OneDay" label ="One day" onAction="AddDayReminder"/>
+                      <button id="ThreeDays" label="Three Days" onAction="AddThreeDayReminder"/>
+                      <button id="OneWeek" label ="One week" onAction="AddWeekReminder"/>
+                    </menu>
+                  </splitButton>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
