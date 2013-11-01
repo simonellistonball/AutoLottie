@@ -34,7 +34,7 @@
     <PublishUrl>C:\Users\elizabeth.ayer\Documents\Visual Studio 2012\publish\</PublishUrl>
     <InstallUrl />
     <TargetCulture>en</TargetCulture>
-    <ApplicationVersion>1.0.0.83</ApplicationVersion>
+    <ApplicationVersion>1.0.0.85</ApplicationVersion>
     <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateInterval>7</UpdateInterval>
